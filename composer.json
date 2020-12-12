@@ -1,0 +1,27 @@
+{
+  "name": "jweb/gii",
+  "description": "extended gii",
+  "keywords": [
+    "yii",
+    "gii"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Jakub Radziwon",
+      "email": "j.radziwon@jweb.com.pl",
+      "homepage": "http://jweb.com.pl/"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "2.0.*",
+    "yiisoft/yii2-gii": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "jweb\\gii\\": ""
+    }
+  }
+}
