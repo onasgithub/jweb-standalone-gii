@@ -9,9 +9,9 @@
 namespace jweb\gii\base;
 
 
-use yii\base\Object;
+use yii\base\BaseObject;
 
-class Provider extends Object
+class Provider extends BaseObject
 {
     /**
      * @var \jweb\gii\crud\Generator
